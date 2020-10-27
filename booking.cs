@@ -21,7 +21,7 @@ namespace airlinesEDOnDal
         public System.DateTime Fdate { get; set; }
         public int Amount { get; set; }
         public string PaymentMethod { get; set; }
-    
+        public string paymentStatus {get;set;}
         public virtual Customer Customer { get; set; }
         public virtual flightDetail flightDetail { get; set; }
     }
